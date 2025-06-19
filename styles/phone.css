@@ -1,0 +1,142 @@
+@media (max-width: 768px) {
+    .photo-container {
+        width: 100vw;
+        height: 100vh;
+        max-width: none;
+        max-height: none;
+        aspect-ratio: unset;
+    }
+
+    .content-wrapper {
+        flex-direction: column;
+    }
+
+    .invitation-text {
+        font-size: 25px;
+        margin-bottom: 100px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .names {
+        font-size: 30px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .date {
+        font-size: 24px;
+        margin-right: 15px;
+        margin-left: 15px;
+
+    }
+
+    .round-image {
+        border-radius: 0;
+        max-width: 100%;
+    }
+
+    .third-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .third-main-image {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1/1;
+        order: 1;
+        margin-left: 0;
+    }
+
+    .third-details {
+        font-size: 1.5rem;
+        margin-left: 30px;
+        order: 3;
+    }
+
+    .program-title {
+        font-size: 2rem;
+    }
+
+    .timeline {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .timeline-item {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .timeline-text {
+        font-size: 1.6rem;
+    }
+
+    .wishes-title {
+        font-size: 2rem;
+    }
+
+    .wishes-content {
+        flex-direction: column;
+        margin-left: 0;
+        align-items: center;
+    }
+
+    .wishes-image {
+        width: 100%;
+        height: auto;
+        max-width: 450px;
+        max-height: 550px;
+        object-fit: cover;
+        border-radius: 0;
+    }
+
+    .wishes-text {
+        margin-left: 20px;
+        padding: 0 15px;
+        font-size: 1.6rem;
+    }
+
+    .survey-title {
+        font-size: 2rem;
+    }
+
+    .survey-content {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .survey-text {
+        padding: 0 30px;
+        margin-top: 30px;
+        gap: 5px;
+    }
+
+    .survey-notice,
+    .survey-link {
+        font-size: 1.7rem;
+        white-space: normal; /* Разрешаем перенос на мобильных */
+    }
+
+    .survey-image {
+        width: 100%;
+        height: auto;
+        max-width: 450px;
+        max-height: 550px;
+        object-fit: cover;
+        border-radius: 0;
+        margin: 0;
+        order: -1;
+    }
+
+    .final-message {
+        font-size: 2.5rem;
+    }
+
+    .final-message::before,
+    .final-message::after {
+        width: 35px;
+    }
+}
